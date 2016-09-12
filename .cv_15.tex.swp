@@ -1,0 +1,212 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Ignacio Jara\\ % Your name
+\url{ijara756@gmail.com} \\ % Your email address
+\url{ijara.github.io} \\ % Your URL
+(+569) 5524-4471 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Dirección} \\
+Lo Arcaya,1718 \\ % Address 1
+Vitacura, Santiago 7640759 \\ % Address 2
+Chile \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Ignacio Jara} % Large heading - your name
+
+\cvsubheading{Ingeniero en Informática} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Acerca de Mi}{24 años, egresado en INACAP Apoquindo. Actualmente trabajo en el área desarrollando software a particulares y en proyectos personales con el fin de mejorar y aprender mas sobre el área. Autodidacta y responsable, me proyecto como un informático dedicado a desarrollar proyectos que permitan llevar el negocio al siguiente nivel.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Educación}
+
+%------------------------------------------------
+
+\CVItem{2013 - 2016, Universidad Tecnológica de Chile, INACAP Apoquindo}{Ingenería en Informática}
+
+%------------------------------------------------
+
+\CVItem{2010 - 2012, Universidad Tecnica Federico Santa María}{Ingenería Civil en Informática - Incompleta}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experiencia}
+
+%------------------------------------------------
+
+\CVItem{Abril 2016 - Junio 2016, \textit{Desarrollador Junior}, Claro Chile S.A.}{
+Logros:
+\begin{itemize}
+	\item Liderar equipos de trabajo.
+	\item Crear un software utilizado en el área comercial de la compañía.
+	\item Desarrollo de proyecto ágil
+	\begin{itemize}
+		\item Tecnologías CLOUD
+		\item Lenguajes Usados:
+		\begin{itemize}
+			\item PHP
+			\item MySQL
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{Julio 2016 - Presente, \textit{Cajero Multifuncional}, UPA!}{Trabajo atendiendo publico y manejo de cajas, actualmente en proceso para ser supervisor de tienda.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Habilidades Comunicacionales}
+
+%------------------------------------------------
+
+\CVItem{2016, \textit{Presentación de Titulo}, INACAP Apoquindo}{Presento el proyecto con el que obtengo el titulo de Ingeniero en Informático.}
+
+%------------------------------------------------
+\begin{comment}
+	\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+\end{comment}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Habilidades en Desarrollo de Software}
+
+%------------------------------------------------
+
+\CVItem{Programación}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Java &  \bluebullet C\# & \bluebullet PHP\\
+\bluebullet Ruby on Rails &  \bluebullet Meteor & \bluebullet C++\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\CVItem{Software}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet MySQL &  \bluebullet GNU/Linux & \bluebullet WS 2008 R2\\
+ \bluebullet GIT &  \bluebullet ssh & \bluebullet bash\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Premios}
+
+%------------------------------------------------
+
+\CVItem{2014, \textit{Hacktoberfest}, Digital Ocean Inc.}{Premio al demostrar uso y manejo de git en la plataforma github durante 1 mes.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Intereses}
+
+%------------------------------------------------
+
+\CVItem{Profesional}{Analisis de datos, desarrollo web y movil usando plataformas unificadoras, desarrollo de Software
+}
+
+%------------------------------------------------
+
+%\CVItem{Personal}{Piano, chess, cooking, dancing, running}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
